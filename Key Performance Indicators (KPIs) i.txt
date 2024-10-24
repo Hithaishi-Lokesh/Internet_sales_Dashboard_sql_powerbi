@@ -1,0 +1,58 @@
+Key Performance Indicators (KPIs) in Power BI. Here are the key points covered:
+
+Definition of KPI: A KPI is a visual cue that shows progress toward a measurable goal, helping organizations track whether they are on track to meet their objectives.
+
+Purpose: KPIs help answer the question of whether you are ahead or behind on your goals. They measure the distance to a target.
+
+Examples: The video uses examples like tracking sales targets and recruitment goals to illustrate how KPIs can be applied in real business scenarios.
+
+Power BI Demo: It showcases how to create KPIs in Power BI using a sales model, highlighting how visualizations can clearly indicate whether targets are being met (using colors like red and green for visual feedback).
+
+Visualization Options: Besides KPIs, the video mentions using gauge charts as another way to represent performance against targets.
+
+Decision-Making: The main goal of using KPIs is to facilitate informed decision-making based on real-time data.
+
+The video emphasizes the importance of tracking these indicators to take timely actions to achieve business goals.
+
+In Power BI, when setting up a KPI visual, you need to provide the following:
+
+Value: This is the current measure you want to evaluate. For example, this could be your actual sales amount or total revenue.
+
+Target: This represents the goal you want to achieve. It could be a specific number, like a sales target for the month (e.g., $173,000).
+
+Trend: This indicates the direction of progress toward the target. It can be a measure that shows historical data or a calculated measure that reflects performance over time, like cumulative sales to date.
+
+In Power BI, if you set up a KPI where:
+
+Value: This represents your budget for the current year.
+Target: You have set a target of $10 million.
+Trend: The trend is evaluated by year, showing how your budget compares over time.
+KPI Explanation:
+Value: The actual budget figure for the current year, which you will monitor to see how it stacks up against your target. For example, if your current budget for this year is $8 million, that is the value displayed.
+
+Target: The target is set at $10 million, meaning that by the end of the year, your goal is to have the budget reach this amount. This is a benchmark against which you will measure performance.
+
+Trend: This shows how your budget has performed over previous years. You might visualize this through a line chart or a bar chart that indicates whether your budget has been increasing, decreasing, or remaining stable over time. For example, if last year’s budget was $9 million and the year before it was $7 million, the trend would show an upward trajectory.
+
+KPI Visual:
+In the KPI visual:
+
+The current value (e.g., $8 million) would be displayed prominently.
+The target ($10 million) could be shown next to or above the current value, often highlighted in a contrasting color (like red if you’re behind or green if you’re on track).
+The trend indicator might show an arrow or a color gradient indicating whether your budget is increasing or decreasing compared to past years.
+Conclusion:
+This KPI setup allows stakeholders to quickly assess whether the current budget aligns with the target of $10 million and to understand the trend over time, enabling informed decision-making for future budgeting strategies.
+
+
+The notation "511.5m goal 10m (+5015) 2024" likely represents a financial target or performance metric. Here's a breakdown:
+
+511.5m: This could indicate the total amount being targeted or projected for a certain period, possibly the cumulative revenue or budget across multiple years or a specific goal for 2024.
+
+goal 10m: This suggests a specific target for the current year (2024), which is set at $10 million.
+
+(+5015): This likely indicates a growth or difference compared to a previous figure. It could mean that you are projected to exceed the previous year’s performance by $5,015 or that you are tracking an increase of $5,015 from a previous budget or target.
+
+2024: This indicates the year for which the goal and values are set.
+
+Summary
+In summary, it seems to communicate that for 2024, the overall goal is $511.5 million, with a specific target of $10 million for that year, and there is an increase of $5,015 compared to a prior metric. This can help in assessing performance against both the larger goal and the specific yearly target.

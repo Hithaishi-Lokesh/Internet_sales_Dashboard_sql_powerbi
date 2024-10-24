@@ -1,0 +1,29 @@
+Project activity :
+
+Focus on - transforming and cleaning data while referring to user story and business demand 
+
+Analysing the difference between Fact Table and dimension table, we will identity required tables based on business requirement and user story 
+
+In data warehousing and database design, fact tables and dimension tables are fundamental concepts, often used together in star or snowflake schemas. Here’s a breakdown of each:
+
+Fact Table
+Definition: A fact table is a central table in a star schema of a data warehouse. It contains quantitative data for analysis and is often denormalized.
+Characteristics:
+Measures: It stores numeric data or measurements, such as sales amount, quantities sold, profit, etc.
+Keys: It typically contains foreign keys that reference dimension tables (e.g., customer ID, product ID, date ID).
+Granularity: The level of detail; for example, sales data could be at the transaction level (each sale) or aggregated (monthly sales).
+Example: A FactstoreSales table that records sales transactions, with columns for sales amount, quantity, customer ID, and date.
+Dimension Table
+Definition: A dimension table contains attributes that describe the objects in the fact table. It provides context to the facts and is generally denormalized.
+Characteristics:
+Descriptive Attributes: It includes textual or categorical data, such as product names, customer demographics, or dates.
+Primary Keys: Each dimension table has a primary key that uniquely identifies each record, which is referenced by the fact table.
+Hierarchies: Dimensions often contain hierarchies that allow for data to be analyzed at different levels (e.g., year → quarter → month).
+Example: A dimCustomers table that includes customer IDs, names, addresses, and other demographic information.
+Key Differences
+Purpose: Fact tables store measurable, quantitative data; dimension tables store descriptive, contextual information.
+Data Type: Fact tables primarily contain numerical data; dimension tables contain qualitative data.
+Structure: Fact tables are usually larger and contain more rows; dimension tables are smaller and contain more columns with descriptive attributes.
+Relationships: Fact tables reference dimension tables through foreign keys to establish relationships for analysis.
+Summary
+In a typical data analysis scenario, the fact table provides the data you want to analyze, while dimension tables give context to that data, allowing for meaningful insights through querying and reporting.

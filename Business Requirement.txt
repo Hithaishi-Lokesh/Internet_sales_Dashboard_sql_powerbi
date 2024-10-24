@@ -1,0 +1,44 @@
+Business Requirement
+
+The sales manager, focusing on enhancing internet sales reports with visual dashboards
+
+
+Key Points from the Business Request
+
+Objective: Transition from static reports to visual dashboards.
+
+Focus Areas:
+Sales data: What products were sold to which clients over time.
+Ability for salespeople to filter data by their products and customers.
+
+Data Sources:
+Sales data from FactstoreSales.
+Customer data from dimCustomers.
+
+Budget data from a new Excel spreadsheet for 2021.
+
+Analysis Timeline: Include data for two years in the analysis, but the budget will only be for one year.
+
+Necessary Systems: Power BI and a CRM system.
+
+Business Demand Overview----
+
+Reporter: Sales Manager
+Value of Change: Visual dashboards for improved sales reporting.
+Necessary Systems: Power BI, CRM system.
+Relevant Info: 2021 budget provided in Excel.
+
+User Stories
+As a Sales Manager:
+I want a dashboard overview of internet sales so that I can identify which customers and products are performing best. (Acceptance Criteria: Dashboard updates daily)
+As a Sales Representative:
+I want a detailed overview of internet sales by customer to follow up with top buyers. (Acceptance Criteria: Dashboard allows data filtering for each customer)
+As a Sales Representative:
+I want a detailed overview of internet sales by product to track performance. (Acceptance Criteria: Dashboard allows data filtering for each product)
+As a Sales Manager:
+I want a dashboard to compare internet sales over time against the budget. (Acceptance Criteria: Dashboard includes graphs and KPIs)
+
+Next Steps
+Data Cleaning: Identify tables needed for data cleansing and transformation.
+Dashboard Creation: Use the user stories and acceptance criteria to guide dashboard development.
+User Feedback: Ensure users can review and validate acceptance criteria post-implementation.
